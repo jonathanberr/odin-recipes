@@ -1,17 +1,17 @@
 #container {
-height: 10%;
+height: 3%;
 width: 100%;
 display: flex;
 }
 #leftThing {
 width: 25%;
-background-color: blue;
+background-color: whitesmoke;
 }
 #content {
 width: 50%;
-background-color: green;
+background-color: whitesmoke;
 }
 #rightThing {
 width: 25%;
-background-color: yellow;
+background-color: whitesmoke;
 }
