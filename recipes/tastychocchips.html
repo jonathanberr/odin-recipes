@@ -1,11 +1,23 @@
 <main>
     <style type="text/css">
         * {margin: 0; padding: 0;}
-        #container {height: 100%; width:100%; font-size: 0;}
-        #left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
-        #left {width: 25%; background: blue;}
-        #middle {width: 50%; background: green;}
-        #right {width: 25%; background: yellow;}
+        #container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+#leftThing {
+  width: 25%;
+  background-color: blue;
+}
+#content {
+  width: 50%;
+  background-color: green;
+}
+#rightThing {
+  width: 25%;
+  background-color: yellow;
+}
     </style>
     <h1 id='header'>overnight cookies</h1>
     <a href="https://tasty.co/recipe/the-best-chewy-chocolate-chip-cookies"><img src='../images/klepon1.webp' alt="q" style="width:300px;height:300px;"></a>
@@ -15,9 +27,9 @@
         that’s it! With these little tweaks, the result is a cookie that’s textured on the outside, and soft and gooey on the inside. Absolutely perfect!</p>
     <p></p>
     <div id="container">
-        <div id="left">Total time: 1hr 5min</div>
-        <div id="middle">Prep Time 20 minutes</div>
-        <div id="right">Cook Time: 15 minutes</div>
+        <div id="leftThing">Total time: 1hr 5min</div>
+        <div id="content">Prep Time 20 minutes</div>
+        <div id="rightThing">Cook Time: 15 minutes</div>
     </div>
     <div>
         <h4>Ingredients</h4>
