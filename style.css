@@ -1,19 +1,19 @@
-#container {
+.container {
 height: 3%;
 width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
 }
-#leftThing {
+.leftThing {
 width: 25%;
 background-color: whitesmoke;
 }
-#content {
+.content {
 width: 50%;
 background-color: whitesmoke;
 }
-#rightThing {
+.rightThing {
 width: 25%;
 background-color: whitesmoke;
 }
